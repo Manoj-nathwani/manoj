@@ -2,7 +2,7 @@ language: python
 python:
 - '2.7'
 install: pip install -r requirements.txt
-script: echo 'hello world'
+script: python setup.py sdist
 deploy:
   provider: pypi
   user: manoj-nathwani
