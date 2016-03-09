@@ -4,6 +4,6 @@ class Projects:
 
 
     def print_projects(self):
-        print('Printing projects...')
+        print('Printing projects')
         for project in self.all_projects:
             print(project)
