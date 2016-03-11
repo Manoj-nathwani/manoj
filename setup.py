@@ -1,9 +1,9 @@
-from distutils.core import setup
+from setuptools import setup
 setup(
-  name = 'manoj',
-  packages = ['manoj'],
-  version = '5',
-  description = 'A random test lib',
-  author = 'Manoj Nathwani',
-  url = 'https://github.com/Manoj-nathwani/pip-install-manoj',
+    name='manoj',
+    version=2,
+    description='TBC',
+    url=repository,
+    download_url='https://github.com/Manoj-nathwani/pip-install-manoj',
+    author='Manoj Nathwani',
 )
